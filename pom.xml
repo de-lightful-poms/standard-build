@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>de.lightful.poms</groupId>
   <artifactId>standard-plugins</artifactId>
-  <version>1</version>
+  <version>1-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>de.lightful :: Standard Plugin Management</name>
 
   <scm>
-    <connection>scm:git:git@github.com:ansgarkonermann/demaven-drools-plugin.git</connection>
-    <developerConnection>scm:git:git@github.com:ansgarkonermann/maven-drools-plugin.git</developerConnection>
+    <connection>scm:git:git@github.com:de-lightful-poms/default-plugins.git</connection>
+    <developerConnection>scm:git:git@github.com:de-lightful-poms/default-plugins.git</developerConnection>
   </scm>
 
   <distributionManagement>
