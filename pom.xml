@@ -11,8 +11,8 @@
   <name>de.lightful :: POMs :: Standard Plugin Management</name>
 
   <scm>
-    <connection>scm:git:git@github.com:de-lightful-poms/default-plugins.git</connection>
-    <developerConnection>scm:git:git@github.com:de-lightful-poms/default-plugins.git</developerConnection>
+    <connection>scm:git:git@github.com:de-lightful-poms/standard-plugins.git</connection>
+    <developerConnection>scm:git:git@github.com:de-lightful-poms/standard-plugins.git</developerConnection>
   </scm>
 
   <distributionManagement>
