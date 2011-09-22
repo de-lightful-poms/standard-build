@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>de.lightful.poms</groupId>
@@ -26,6 +27,12 @@
       <url>scp://lightful.de/mvnrepo/public/releases</url>
       <layout>default</layout>
     </repository>
+    <snapshotRepository>
+      <id>de.lightful.snapshots</id>
+      <name>Public Snapshot Repository on lightful.de</name>
+      <url>scp://lightful.de/mvnrepo/public/snapshots</url>
+      <layout>default</layout>
+    </snapshotRepository>
   </distributionManagement>
 
   <build>
