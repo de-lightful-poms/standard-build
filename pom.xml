@@ -4,7 +4,7 @@
 
   <groupId>de.lightful.poms</groupId>
   <artifactId>standard-plugins</artifactId>
-  <version>21-SNAPSHOT</version>
+  <version>21</version>
   <packaging>pom</packaging>
 
   <name>de.lightful :: POMs :: Standard Plugins</name>
