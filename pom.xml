@@ -21,7 +21,7 @@
 
   <groupId>de.lightful.poms</groupId>
   <artifactId>standard-build</artifactId>
-  <version>33</version>
+  <version>34-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>de.lightful :: POMs :: Standard Build</name>
