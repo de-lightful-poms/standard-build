@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  ~ Copyright (c) 2011 Ansgar Konermann
+  ~ Copyright (c) 2011-2012 Ansgar Konermann
   ~
   ~ This file is part of the "de.lightful Maven Parent POMs" Package.
   ~
@@ -16,15 +16,16 @@
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
   -->
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>de.lightful.poms</groupId>
   <artifactId>standard-build</artifactId>
-  <version>36-SNAPSHOT</version>
+  <version>38-SNAPSHOT</version>
   <packaging>pom</packaging>
 
-  <name>de.lightful :: POMs :: Standard Build</name>
+  <name>de.lightful :: POMs :: Standard Internal Build</name>
   <description>Default plugin management, distribution management and sourceEncoding for all de.lightful projects</description>
 
   <licenses>
@@ -40,8 +41,8 @@
   </properties>
 
   <scm>
-    <connection>scm:git:git@github.com:de-lightful-poms/standard-plugins.git</connection>
-    <developerConnection>scm:git:git@github.com:de-lightful-poms/standard-plugins.git</developerConnection>
+    <connection>scm:git:git@github.com:de-lightful-poms/standard-build.git</connection>
+    <developerConnection>scm:git:git@github.com:de-lightful-poms/standard-build.git</developerConnection>
   </scm>
 
   <distributionManagement>
